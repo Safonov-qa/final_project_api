@@ -46,7 +46,7 @@
 ## :computer: Запуск тестов из терминала
 
 ```bash
-gradle clean test
+./gradlew clean test
 ```
 
 <a id="jenkins"></a>
