@@ -6,8 +6,10 @@ import io.restassured.specification.ResponseSpecification;
 
 import static io.restassured.filter.log.LogDetail.BODY;
 import static io.restassured.filter.log.LogDetail.STATUS;
-import static io.restassured.filter.log.RequestLoggingFilter.with;
 import static io.restassured.http.ContentType.JSON;
+import static io.restassured.RestAssured.with;
+
+
 import static org.hamcrest.Matchers.notNullValue;
 import static ru.safonovill.helpers.CustomAllureListener.withCustomTemplates;
 
