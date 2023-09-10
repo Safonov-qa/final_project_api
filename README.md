@@ -56,7 +56,7 @@ gradle clean test
 <p align="center">
 
 <p align="center">
-<a><img title="Jenkins Job" src="media/screenshots/jenkinsMain.jpg" alt="Jenkins"/></a>
+<a><img title="Jenkins Job" src="media/screenshots/JenkinsScreenMain.png" alt="Jenkins"/></a>
 </p>
 
 <a id="allure"></a>
