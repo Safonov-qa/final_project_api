@@ -65,7 +65,7 @@ gradle clean test
 ### Главная страница
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="media/screenshots/allureReportMain.jpg">
+<img title="Allure Overview Dashboard" src="media/screenshots/AllureScreenMain.png">
 </p>
 
 ### Тест-кейсы
@@ -73,7 +73,7 @@ gradle clean test
 В отчетах отображена информация по запросам и ответам.
 
 <p align="center">
-<img title="Allure Tests" src="media/screenshots/allureReportSuites.jpg">
+<img title="Allure Tests" src="media/screenshots/AllureScreenTestCases.png">
 </p>
 
 <a id="allure-testops"></a>
