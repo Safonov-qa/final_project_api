@@ -83,14 +83,14 @@ gradle clean test
 ### Главная страница
 
 <p align="center">
-<img title="Allure TestOps" src="media/screenshots/testOpsDashboard.jpg">
+<img title="Allure TestOps" src="media/screenshots/TestOpsDashboard.png">
 </p>
 
 
 ### Тест-кейсы
 
 <p align="center">
-<img title="Allure TestOps" src="media/screenshots/testOpsTestCases.jpg">
+<img title="Allure TestOps" src="media/screenshots/TestOpsTestCases.png">
 </p>
 
 
@@ -99,7 +99,7 @@ gradle clean test
 
 ### Интеграция Jira и Allure TestOps
 <p align="center">
-<img title="Jira" src="media/screenshots/jiraIntegration.jpg">
+<img title="Jira" src="media/screenshots/JiraScreen.png">
 </p>
 
 
@@ -107,5 +107,5 @@ gradle clean test
 ## <img src="media/logo/Telegram.svg" width="25" height="25"/></a> Уведомления в Telegram с использованием бота
 
 <p >
-<img title="telegram bot" src="media/screenshots/telegramIntegration.jpg">
+<img title="telegram bot" src="media/screenshots/TelegramScreen.png">
 </p>
