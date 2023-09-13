@@ -50,17 +50,14 @@
 ```
 
 <a id="jenkins"></a>
-## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в Jenkins
-
-<a target="_blank" href="https://jenkins.autotests.cloud/job/final_project_api/">Сборка в Jenkins</a>
-<p align="center">
+## <img src="media/logo/Jenkins.svg" width="25" height="25"/></a> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/final_project_api/)
 
 <p align="center">
 <a><img title="Jenkins Job" src="media/screenshots/JenkinsScreenMain.png" alt="Jenkins"/></a>
 </p>
 
 <a id="allure"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчеты в [Allure Report](https://jenkins.autotests.cloud/job/Students/job/18-ghostovu-reqres-api-tests/5/allure/)
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"/></a> Отчеты в [Allure Report](https://jenkins.autotests.cloud/job/final_project_api/allure/)
 
 ### Главная страница
 
