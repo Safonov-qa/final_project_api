@@ -24,6 +24,8 @@
 <a id="tools"></a>
 ## :gear: Технологии и инструменты
 
+
+
 <div align="center">
 <a href="https://www.jetbrains.com/idea/"><img alt="InteliJ IDEA" height="50" src="media/logo/Intelij_IDEA.svg" width="50"/></a>
 <a href="https://github.com/"><img alt="GitHub" height="50" src="media/logo/GitHub.png" width="50"/></a>  
@@ -38,6 +40,11 @@
 <a href="https://www.atlassian.com/software/jira"><img alt="Jira" height="50" src="media/logo/Jira.svg" width="50"/></a>  
 <a href="https://telegram.org/"><img alt="Telegram" height="50" src="media/logo/Telegram.svg" width="50"/></a>
 </div>
+
+
+
+
+
 
 
 | Java                                                                                                    | IntelliJ Idea                                                                                                                | GitHub                                                                                                    | JUnit 5                                                                                                          | Gradle                                                                                                    |
