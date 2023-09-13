@@ -14,6 +14,3 @@ build/
 
 ### Logs ###
 *.log
-
-gradlew
-gradlew.bat
