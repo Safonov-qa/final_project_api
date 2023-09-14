@@ -2,8 +2,6 @@ plugins {
     id 'java-library'
     id "io.freefair.lombok" version "6.0.0-m2"
     id 'io.qameta.allure' version '2.11.2'
-
-
 }
 
 repositories {
@@ -32,7 +30,6 @@ dependencies {
     testImplementation (
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.rest-assured:rest-assured:$restAssuredVersion",
-            "io.rest-assured:json-schema-validator:$restAssuredVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.9.2",
             "org.assertj:assertj-core:3.24.2",

@@ -33,15 +33,15 @@ public class UserApiTests {
         step("Проверить номер страницы в ответе", () ->
                 assertThat(checkUsersListResponse.getPage()).isEqualTo(2));
         step("Проверить id первого пользователя в списке", () ->
-                assertThat(dataListResponse.get(0).id).isEqualTo(7));
+                assertThat(dataListResponse.get(0).getId()).isEqualTo(7));
         step("Проверить email первого пользователя в списке", () ->
-                assertThat(dataListResponse.get(0).email).isEqualTo("michael.lawson@reqres.in"));
+                assertThat(dataListResponse.get(0).getEmail()).isEqualTo("michael.lawson@reqres.in"));
         step("Проверить first_name первого пользователя в списке", () ->
-                assertThat(dataListResponse.get(0).first_name).isEqualTo("Michael"));
+                assertThat(dataListResponse.get(0).getFirstName()).isEqualTo("Michael"));
         step("Проверить last_name первого пользователя в списке", () ->
-                assertThat(dataListResponse.get(0).last_name).isEqualTo("Lawson"));
+                assertThat(dataListResponse.get(0).getLastName()).isEqualTo("Lawson"));
         step("Проверить аватар первого пользователя в списке", () ->
-                assertThat(dataListResponse.get(0).avatar).isEqualTo("https://reqres.in/img/faces/7-image.jpg"));
+                assertThat(dataListResponse.get(0).getAvatar()).isEqualTo("https://reqres.in/img/faces/7-image.jpg"));
         step("Проверить адрес support url", () ->
                 assertThat(supportResponse.getUrl()).isEqualTo("https://reqres.in/#support-heading"));
     }
@@ -61,7 +61,7 @@ public class UserApiTests {
                         .when()
                         .post("/users")
                         .then()
-                        .spec(createUserResponseSpec)
+                        .spec(createUser201ResponseSpec)
                         .extract().as(CreateUserResponseModel.class));
 
         step("Проверить имя пользователя в теле ответа", () ->
@@ -83,7 +83,7 @@ public class UserApiTests {
                         .when()
                         .patch("/users/2")
                         .then()
-                        .spec(updateUserResponseSpec)
+                        .spec(updateUser200ResponseSpec)
                         .extract().as(UpdateUserResponseModel.class));
 
         step("Проверить работу пользователя в теле ответа", () ->

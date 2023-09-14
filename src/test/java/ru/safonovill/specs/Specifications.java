@@ -27,7 +27,7 @@ public class Specifications {
             .expectStatusCode(200)
             .build();
 
-    public static ResponseSpecification createUserResponseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification createUser201ResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
             .expectStatusCode(201)
@@ -35,14 +35,14 @@ public class Specifications {
             .expectBody("createdAt", notNullValue())
             .build();
 
-    public static ResponseSpecification updateUserResponseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification updateUser200ResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
             .expectStatusCode(200)
             .expectBody("updatedAt", notNullValue())
             .build();
 
-    public static ResponseSpecification unsuccessfulRegisterResponseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification unsuccessfulRegister400ResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
             .expectStatusCode(400)

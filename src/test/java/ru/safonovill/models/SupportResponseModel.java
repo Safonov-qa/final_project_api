@@ -4,5 +4,6 @@ import lombok.Data;
 
 @Data
 public class SupportResponseModel {
-    public String url, text;
+    private String url;
+    private String text;
 }

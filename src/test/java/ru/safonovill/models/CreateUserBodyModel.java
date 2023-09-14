@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class CreateUserBodyModel {
-    String name, job;
+    private String name;
+    private String job;
 }
 

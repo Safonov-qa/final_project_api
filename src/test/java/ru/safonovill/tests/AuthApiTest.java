@@ -10,8 +10,7 @@ import ru.safonovill.models.UnsuccessfulRegisterResponseModel;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static ru.safonovill.specs.Specifications.requestSpec;
-import static ru.safonovill.specs.Specifications.unsuccessfulRegisterResponseSpec;
+import static ru.safonovill.specs.Specifications.*;
 
 @Feature("API тесты для сайта Reqres.in")
 @Owner("SafonovIll")
@@ -31,7 +30,7 @@ public class AuthApiTest {
                         .when()
                         .post("/register")
                         .then()
-                        .spec(unsuccessfulRegisterResponseSpec)
+                        .spec(unsuccessfulRegister400ResponseSpec)
                         .extract().as(UnsuccessfulRegisterResponseModel.class));
 
         step("Проверить, что в ответе текст ошибки 'Missing password'", () ->
